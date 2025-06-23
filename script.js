@@ -248,8 +248,8 @@ function showQuote() {
  */
 function setBackground() {
     // Set the body's background image to a random high-resolution image
-    // The API returns different images each time for variety
-    document.body.style.backgroundImage = `url(https://bingw.jasonzeng.dev/?index=random&w=3840)`;
+    // Using Lorem Picsum for reliable, high-quality random images
+    document.body.style.backgroundImage = `url(https://picsum.photos/3840/2160?random=${Date.now()})`;
 }
 
 // Initialize the application when the page loads
