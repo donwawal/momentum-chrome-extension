@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Momentum",
+  "version": "1.0",
+  "description": "A clean and minimal new tab page with time, a new quote, and a new background image.",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "author": "AI Assistant"
+}

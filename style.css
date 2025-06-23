@@ -1,0 +1,73 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    color: white;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#greeting {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+#time {
+    font-size: 10rem;
+    font-weight: 500;
+}
+
+#goal-container {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+#goal-container p {
+    margin: 0;
+}
+
+#goal-input, #goal-text {
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    outline: none;
+    width: 100%;
+}
+
+#goal-display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#goal-text.completed {
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+
+#quote-container {
+    position: absolute;
+    bottom: 30px;
+    font-size: 1.2rem;
+    max-width: 60%;
+}
+
+#author {
+    font-style: italic;
+}
