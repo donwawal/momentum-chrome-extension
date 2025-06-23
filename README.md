@@ -34,8 +34,8 @@ A clean and minimal new tab page that replaces Chrome's default new tab with a b
 ### Method 2: Clone from GitHub
 
 ```bash
-git clone https://github.com/yourusername/momentum.git
-cd momentum
+git clone https://github.com/donwawal/momentum-chrome-extension.git
+cd momentum-chrome-extension
 ```
 
 Then follow steps 2-3 from Method 1.
